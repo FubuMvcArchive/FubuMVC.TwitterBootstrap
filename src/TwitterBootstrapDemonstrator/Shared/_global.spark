@@ -2,3 +2,4 @@
 ﻿<use namespace="FubuMVC.Core.UI" />
 ﻿<use namespace="FubuMVC.TwitterBootstrap" />
 <use namespace="System.Linq" />
+<use namespace="TwitterBootstrapDemonstrator" />

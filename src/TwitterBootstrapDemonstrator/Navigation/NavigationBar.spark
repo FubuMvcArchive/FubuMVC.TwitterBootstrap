@@ -1,0 +1,8 @@
+﻿<viewdata model="TwitterBootstrapDemonstrator.Navigation.NavigationBarViewModel"/>
+<content:title>Navigation Bar Sample</content:title>
+<content:head>
+  
+</content:head>
+<content:main>
+<p>Some stuff here about how to do a navigation bar</p>
+</content:main>

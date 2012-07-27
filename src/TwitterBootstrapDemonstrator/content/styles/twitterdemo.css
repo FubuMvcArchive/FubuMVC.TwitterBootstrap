@@ -1,0 +1,11 @@
+﻿#demo-menu .nav > li > a
+{
+	padding-top: 18px !important;
+}
+
+#Content
+{
+	min-height: 600px;
+	position: absolute;
+	top: 70px;
+}

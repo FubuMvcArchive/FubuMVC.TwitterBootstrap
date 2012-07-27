@@ -1,0 +1,29 @@
+﻿<viewdata model="TwitterBootstrapDemonstrator.CollapsiblePartial.CollapsiblePartialViewModel"/>
+<content:title>Collapsible Partial Sample</content:title>
+<content:head>
+  
+</content:head>
+<content:main>
+<p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+  <p>Some stuff here about how to do a collapsible partial</p>
+</content:main>

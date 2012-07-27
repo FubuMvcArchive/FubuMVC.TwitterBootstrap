@@ -8,13 +8,29 @@
 		<title>
 			<use content="title"/>
 		</title>
+    <Stylesheet href="twitterdemo.css" />
     <Script src="twitterbootstrap" />
 		<use content="head"/>
 		<Styles />
 	</head>
 	<body>
+    <div id="demo-menu" class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="brand" href="${this.Urls.UrlFor<HomeEndpoint>(x => x.Index())}">
+            <Image src="fubumvc.png" />
+          </a>
+          !{this.TwitterNavBarFor("TwitterBootstrap")}
+
+        </div>
+      </div>
+    </div>
+
+    <div id="Content">
 		<use content="main" />
-		<Scripts />
+    </div>
+
+    <Scripts />
 		<use content="footer" />
 	</body>
 </html>
