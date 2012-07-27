@@ -4,6 +4,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.TwitterBootstrap", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.TwitterBootstrap.Testing", "FubuMVC.TwitterBootstrap.Testing\FubuMVC.TwitterBootstrap.Testing.csproj", "{EA81872F-4C9B-44CE-AFBE-E444D1AA6FD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterBootstrapDemonstrator", "TwitterBootstrapDemonstrator\TwitterBootstrapDemonstrator.csproj", "{0616590B-1AD1-48B1-AB43-076366AA3BF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AD0982D-4DC7-42CA-BFA2-AEA99DCF62F7}"
+	ProjectSection(SolutionItems) = preProject
+		..\rakefile.rb = ..\rakefile.rb
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,10 @@ Global
 		{EA81872F-4C9B-44CE-AFBE-E444D1AA6FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA81872F-4C9B-44CE-AFBE-E444D1AA6FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA81872F-4C9B-44CE-AFBE-E444D1AA6FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0616590B-1AD1-48B1-AB43-076366AA3BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0616590B-1AD1-48B1-AB43-076366AA3BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0616590B-1AD1-48B1-AB43-076366AA3BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0616590B-1AD1-48B1-AB43-076366AA3BF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

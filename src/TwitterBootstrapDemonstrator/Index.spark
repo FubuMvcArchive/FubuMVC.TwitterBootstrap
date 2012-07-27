@@ -1,0 +1,10 @@
+﻿<viewdata model="TwitterBootstrapDemonstrator.HomeViewModel"/>
+<content:title>FubuMVC.TwitterBootstrap Demonstrator</content:title>
+<content:head>
+  
+</content:head>
+<content:main>
+<h1>Hello!</h1>
+
+<p>Here I am.</p>
+</content:main>
