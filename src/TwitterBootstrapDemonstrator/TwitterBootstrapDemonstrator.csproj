@@ -41,11 +41,11 @@
     <Reference Include="FubuLocalization">
       <HintPath>..\packages\FubuLocalization.0.9.5.61\lib\FubuLocalization.dll</HintPath>
     </Reference>
+    <Reference Include="FubuMVC.CodeSnippets">
+      <HintPath>..\packages\FubuMVC.CodeSnippets.0.1.0.16\lib\net40\FubuMVC.CodeSnippets.dll</HintPath>
+    </Reference>
     <Reference Include="FubuMVC.Core">
       <HintPath>..\packages\FubuMVC.References.0.9.8.1052\lib\net40\FubuMVC.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="FubuMVC.Diagnostics">
-      <HintPath>..\packages\FubuMVC.Diagnostics.0.9.8.1052\lib\net40\FubuMVC.Diagnostics.dll</HintPath>
     </Reference>
     <Reference Include="FubuMVC.Spark">
       <HintPath>..\packages\FubuMVC.Spark.0.9.8.1052\lib\net40\FubuMVC.Spark.dll</HintPath>
@@ -105,6 +105,7 @@
     <Compile Include="HomeEndpoint.cs" />
     <Compile Include="Navigation\NavigationEndpoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwitterBootstrapDemonstrationNavigation.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FubuMVC.TwitterBootstrap\FubuMVC.TwitterBootstrap.csproj">

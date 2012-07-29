@@ -20,8 +20,9 @@
           <a class="brand" href="${this.Urls.UrlFor<HomeEndpoint>(x => x.Index())}">
             <Image src="fubumvc.png" />
           </a>
+          <!-- SAMPLE: UsingTwitterNavBarFor -->
           !{this.TwitterNavBarFor("TwitterBootstrap")}
-
+          <!-- ENDSAMPLE -->
         </div>
       </div>
     </div>
