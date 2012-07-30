@@ -6,6 +6,7 @@ namespace TwitterBootstrapDemonstrator.CollapsiblePartial
 {
     public class CollapsiblePartialEndpoint
     {
+        // SAMPLE: UsingCollapsibleTag
         public CollapsiblePartialViewModel get_collapsible_partial()
         {
             var inner = new HtmlTag("div");
@@ -22,7 +23,14 @@ namespace TwitterBootstrapDemonstrator.CollapsiblePartial
                 Tag = tag
             };
         }
+        // ENDSAMPLE
 
+
+    }
+
+    // SAMPLE: PartialInCollapsible
+    public class HtmlTagPartialEndpoint
+    {
         public HtmlTag HtmlPartial(PartialRequest request)
         {
             var inner = new HtmlTag("div");
@@ -35,10 +43,8 @@ namespace TwitterBootstrapDemonstrator.CollapsiblePartial
         }
     }
 
-    public class PartialRequest
-    {
-        
-    }
+    public class PartialRequest{ }
+    // ENDSAMPLE
 
     public class CollapsiblePartialViewModel
     {

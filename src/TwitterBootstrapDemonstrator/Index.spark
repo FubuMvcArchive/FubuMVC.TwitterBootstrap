@@ -4,7 +4,8 @@
   
 </content:head>
 <content:main>
-<h1>Hello!</h1>
+<h1>FubuMVC.TwitterBootstrap Demos</h1>
+  <br></br>
+  !{Model.Outline.Style("font-size", "large")}
 
-<p>Here I am.</p>
 </content:main>

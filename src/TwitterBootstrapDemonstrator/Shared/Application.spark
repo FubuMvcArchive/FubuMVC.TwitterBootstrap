@@ -20,6 +20,8 @@
             <Image src="fubumvc.png" />
           </a>
           <!-- SAMPLE: UsingTwitterNavBarFor -->
+          <!-- Note that this is an extension method on IFubuPage -->
+          <!-- The syntax for Razor or *gasp* WebForms will be different-->
           !{this.TwitterNavBarFor("TwitterBootstrap")}
           <!-- ENDSAMPLE -->
         </div>

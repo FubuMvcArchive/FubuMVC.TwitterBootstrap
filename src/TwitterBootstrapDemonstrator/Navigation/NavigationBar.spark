@@ -5,18 +5,24 @@
 </content:head>
 <content:main>
   <h1>Navigation Bar Sample</h1>
-  <p>So I bet you're wondering, "how <i>do</i> I make a navigation bar like the one at the top of this page?.  Well, the first step is just to use the FubuMVC's standard navigation features to configure the NavigationGraph.  In the case of the code above, I used a NavigationRegistry like so:</p>
+  <p>
+    So I bet you're wondering, "how <i>do</i> I make a navigation bar like the one at the top of this page?.  Assuming that you've already configured the navigation model in your application, all you need to do is to call the <code>TwitterNavBarFor(menu key)</code> method in a view like the sample below:
+  </p>
+
+  !{this.CodeSnippet("UsingTwitterNavBarFor")}
+
+  <p>In the code above, I used an html helper to render the "TwitterBootstrap" menu.  Before I could do that, I had to configure the navigation graph inside my FubuMVC application.  In the case of the code above, I used a NavigationRegistry like so:</p>
+
 
   !{this.CodeSnippet("NavigationRegistry")}
   (!{this.LinkToSnippet("NavigationRegistry")})
-  
+  <br />
+  <br />
+  <br />
   <p>After creating the NavigationRegistry above just to define this menu, I needed to register <code>TwitterBootstrapDemonstrationNavigation</code> with our FubuRegistry for the application:</p>
     !{this.CodeSnippet("FubuRegistry")}
   
-  <p>
-  Now that I have a configuration model for the menu identified as <i>TwitterBootstrap</i>, I simply go to the master layout of the application (in this case, a Spark file !{this.LinkToCodeFile("Shared/Application.spark").Text("here")}), and add this one line of code:
-</p>
 
-  !{this.CodeSnippet("UsingTwitterNavBarFor")}
+  
 
 </content:main>
