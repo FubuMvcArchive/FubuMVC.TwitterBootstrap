@@ -1,12 +1,18 @@
 ﻿<viewdata model="TwitterBootstrapDemonstrator.CollapsiblePartial.CollapsiblePartialViewModel"/>
+<use namespace="TwitterBootstrapDemonstrator.CollapsiblePartial" />
+
 <content:title>Collapsible Partial Sample</content:title>
-<content:head>
-  <Script src="twitter/bootstrap.min.js" />
-  <Script src="twitter/bootstrap-transition.js" />
-  <Script src="twitter/bootstrap-collapse.js" />
-</content:head>
 <content:main>
 
+  <h4>Using the expression</h4>
+  !{this.CollapsiblePartialFor<PartialRequest>
+    ().Title("First").Id("first")}
+
+    !{this.CollapsiblePartialFor(new PartialRequest()).Title("Second")}
+
+    !{this.CollapsiblePartialFor<PartialRequest>().Title("Third")}
+
+      <h4>Using the Collapsible Tag</h4>
   !{Model.Tag}
 
   <div class="accordion-group">

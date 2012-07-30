@@ -22,6 +22,22 @@ namespace TwitterBootstrapDemonstrator.CollapsiblePartial
                 Tag = tag
             };
         }
+
+        public HtmlTag HtmlPartial(PartialRequest request)
+        {
+            var inner = new HtmlTag("div");
+            for (var i = 0; i < 5; i++)
+            {
+                inner.Add("p").Text(Guid.NewGuid().ToString());
+            }
+
+            return inner;
+        }
+    }
+
+    public class PartialRequest
+    {
+        
     }
 
     public class CollapsiblePartialViewModel

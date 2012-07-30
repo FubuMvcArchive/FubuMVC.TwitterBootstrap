@@ -64,6 +64,7 @@
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Collapsibles\CollapsiblePartialExpression.cs" />
     <Compile Include="Collapsibles\CollapsibleTag.cs" />
     <Compile Include="Menus\MenuItemTag.cs" />
     <Compile Include="Menus\MenuTag.cs" />
