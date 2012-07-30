@@ -64,13 +64,16 @@
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Collapsibles\CollapsibleTag.cs" />
     <Compile Include="Menus\MenuItemTag.cs" />
     <Compile Include="Menus\MenuTag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwitterBootstrapPageExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\scripts\twitter\bootstrap-collapse.js" />
     <Content Include="content\scripts\twitter\bootstrap-tabs.js" />
+    <Content Include="content\scripts\twitter\bootstrap-transition.js" />
     <Content Include="content\scripts\twitter\bootstrap.min.js" />
     <Content Include="content\styles\img\glyphicons-halflings-white.png" />
     <Content Include="content\styles\img\glyphicons-halflings.png" />
@@ -79,7 +82,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="twitterbootstrap.asset.config" />
+    <None Include="twitterbootstrap.asset.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

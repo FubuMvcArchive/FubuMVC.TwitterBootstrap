@@ -1,5 +1,4 @@
-﻿
-<!doctype html>
+﻿<!doctype html>
 <html class="no-js" lang="en">
 	<!--<![endif]-->
 	<head>
@@ -27,7 +26,7 @@
       </div>
     </div>
 
-    <div id="Content">
+    <div id="Content" class="span12">
 		<use content="main" />
     </div>
 
