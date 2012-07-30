@@ -66,6 +66,7 @@ task :clean => [:update_buildsupport] do
     waitfor { !exists?(props[:stage]) }
 	Dir.mkdir props[:stage]
     
+	FileUtils.rm_rf props[:artifacts]
 	Dir.mkdir props[:artifacts] unless exists?(props[:artifacts])
 end
 
@@ -80,11 +81,11 @@ end
 
 desc "Compiles the app"
 task :compile => [:restore_if_missing, :clean, :version] do
+  bottles("assembly-pak src/FubuMVC.TwitterBootstrap -p FubuMVC.TwitterBootstrap.csproj")
+  
   MSBuildRunner.compile :compilemode => COMPILE_TARGET, :solutionfile => 'src/FubuMVC.TwitterBootstrap.sln', :clrversion => CLR_TOOLS_VERSION
 
   target = COMPILE_TARGET.downcase
-
-  sh "bottles assembly-pak src/FubuMVC.TwitterBootstrap -p FubuMVC.TwitterBootstrap.csproj"
 
   FileUtils.rm_rf 'src/TwitterBootstrapDemonstrator/fubu-content'
 end
