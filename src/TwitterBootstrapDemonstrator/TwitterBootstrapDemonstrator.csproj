@@ -36,7 +36,7 @@
       <HintPath>..\packages\Bottles.0.9.1.334\lib\Bottles.dll</HintPath>
     </Reference>
     <Reference Include="FubuCore">
-      <HintPath>..\packages\FubuCore.0.9.9.165\lib\FubuCore.dll</HintPath>
+      <HintPath>..\packages\FubuCore.0.9.9.174\lib\FubuCore.dll</HintPath>
     </Reference>
     <Reference Include="FubuLocalization">
       <HintPath>..\packages\FubuLocalization.0.9.5.61\lib\FubuLocalization.dll</HintPath>
@@ -114,7 +114,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="demonstrator.asset.config" />

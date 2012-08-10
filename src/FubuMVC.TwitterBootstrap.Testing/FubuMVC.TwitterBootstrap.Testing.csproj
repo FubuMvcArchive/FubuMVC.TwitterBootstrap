@@ -34,6 +34,9 @@
     <Reference Include="Bottles">
       <HintPath>..\packages\Bottles.0.9.1.334\lib\Bottles.dll</HintPath>
     </Reference>
+    <Reference Include="FubuCore">
+      <HintPath>..\packages\FubuCore.0.9.9.174\lib\FubuCore.dll</HintPath>
+    </Reference>
     <Reference Include="FubuLocalization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FubuLocalization.0.9.5.61\lib\FubuLocalization.dll</HintPath>
     </Reference>
