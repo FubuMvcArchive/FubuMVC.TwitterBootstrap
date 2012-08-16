@@ -8,9 +8,9 @@ namespace FubuMVC.TwitterBootstrap.Collapsibles
     {
         private string _id;
         private string _title;
-        private readonly Func<string> _content;
+        private readonly Func<object > _content;
 
-        public CollapsiblePartialExpression(Func<string> content)
+        public CollapsiblePartialExpression(Func<object> content)
         {
             _content = content;
             _id = Guid.NewGuid().ToString();
@@ -36,7 +36,7 @@ namespace FubuMVC.TwitterBootstrap.Collapsibles
         public override string ToString()
         {
             var tag = new CollapsibleTag(_id, _title);
-            tag.SetInnerContent(_content());
+            tag.SetInnerContent(_content().ToString());
 
             return tag.ToString();
         }
