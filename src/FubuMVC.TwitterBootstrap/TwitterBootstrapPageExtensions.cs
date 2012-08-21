@@ -5,6 +5,7 @@ using FubuMVC.Core.UI.Navigation;
 using FubuMVC.Core.View;
 using FubuMVC.TwitterBootstrap.Collapsibles;
 using FubuMVC.TwitterBootstrap.Menus;
+using FubuMVC.TwitterBootstrap.Modals;
 using HtmlTags;
 
 namespace FubuMVC.TwitterBootstrap
@@ -40,6 +41,11 @@ namespace FubuMVC.TwitterBootstrap
         {
             page.Asset("twitter/activate-collapsible.js");
             return new CollapsiblePartialExpression(() => page.PartialFor(model));
+        }
+
+        public static ModalExpression Modal(this IFubuPage page, string id)
+        {
+            return new ModalExpression(page, id);
         }
     }
 }

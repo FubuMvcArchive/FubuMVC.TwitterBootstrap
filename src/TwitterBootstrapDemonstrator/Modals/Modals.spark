@@ -1,0 +1,26 @@
+﻿<viewdata model="TwitterBootstrapDemonstrator.Modals.ModalViewModel"/>
+<use namespace="TwitterBootstrapDemonstrator.Modals" />
+
+
+<content:title>Modal Expression Samples</content:title>
+<content:main>
+
+  <p>The idea of this feature is to be able to easily invoke a FubuMVC Partial in a page wrapped in Twitter Bootstrap's <a href="http://twitter.github.com/bootstrap/javascript.html#modals">Modal</a> plugin.  Let's say that I have a partial endpoint that generates just a little bit of html like this one:</p>
+
+  !{this.CodeSnippet("PartialInCollapsible")}
+  
+  <p>Now that I have a working partial endpoint, I can render it inside a modal popup html element in a view by using this statement in a Spark view:</p>
+
+  !{this.CodeSnippet("ModalPartialInSpark")}
+
+  <p>The line of code above will render the partial into a modal box and wire up all the JavaScript and Style elements for you.</p>
+
+  <button data-toggle="modal" href="#modal1" class="btn btn-primary btn-large" onclick="$('#modal1').modal('show');">Launch demo modal</button>
+  <!-- SAMPLE: ModalPartialInSpark-->
+  !{this.Modal("modal1").Label("Sample Model").AddCloseButton("Close").UsePartial<PartialRequest>()}
+  <!-- ENDSAMPLE -->
+    <br></br>
+
+
+
+  </content:main>

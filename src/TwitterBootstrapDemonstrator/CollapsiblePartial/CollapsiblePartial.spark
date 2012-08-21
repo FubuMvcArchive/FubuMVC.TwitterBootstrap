@@ -1,5 +1,6 @@
 ﻿<viewdata model="TwitterBootstrapDemonstrator.CollapsiblePartial.CollapsiblePartialViewModel"/>
 <use namespace="TwitterBootstrapDemonstrator.CollapsiblePartial" />
+<use namespace="TwitterBootstrapDemonstrator" />
 
 <content:title>Collapsible Partial Sample</content:title>
 <content:main>
