@@ -23,6 +23,20 @@ namespace FubuMVC.TwitterBootstrap.Collapsibles
                 .Add("div").AddClass("accordion-inner");
         }
 
+        public CollapsibleTag Opened(bool isOpen)
+        {
+            if (isOpen)
+            {
+                AddClass("in");
+            }
+
+            return this;
+        }
+
+        public bool Opened()
+        {
+            return HasClass("in");
+        }
 
         public void SetInnerContent(string html)
         {
