@@ -38,7 +38,18 @@ namespace FubuMVC.TwitterBootstrap.Collapsibles
             return HasClass("in");
         }
 
-        public void SetInnerContent(string html)
+        public CollapsibleTag AppendContent(HtmlTag tag)
+        {
+            _body.Append(tag);
+
+            return this;
+        }
+
+        /// <summary>
+        /// Adds literal Html to the body of this CollapsibleTag
+        /// </summary>
+        /// <param name="html"></param>
+        public void AppendContent(string html)
         {
             _body.AppendHtml(html);
         }

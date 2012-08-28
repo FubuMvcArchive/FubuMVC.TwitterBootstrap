@@ -36,7 +36,7 @@ namespace FubuMVC.TwitterBootstrap.Collapsibles
         public override string ToString()
         {
             var tag = new CollapsibleTag(_id, _title);
-            tag.SetInnerContent(_content().ToString());
+            tag.AppendContent(_content().ToString());
 
             return tag.ToString();
         }

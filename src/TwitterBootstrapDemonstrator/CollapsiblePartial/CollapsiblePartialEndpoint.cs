@@ -17,7 +17,7 @@ namespace TwitterBootstrapDemonstrator.CollapsiblePartial
 
 
             var tag = new CollapsibleTag("acc1", "This is the collapsible tag");
-            tag.SetInnerContent(inner.ToString());
+            tag.AppendContent(inner.ToString());
 
             return new CollapsiblePartialViewModel{
                 Tag = tag

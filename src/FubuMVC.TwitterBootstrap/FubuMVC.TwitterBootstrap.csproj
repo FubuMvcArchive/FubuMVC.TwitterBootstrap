@@ -72,6 +72,10 @@
     <Compile Include="Menus\MenuTag.cs" />
     <Compile Include="Modals\ModalExpression.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tags\DetailsTableTag.cs" />
+    <Compile Include="Tags\DetailTableBuilder.cs" />
+    <Compile Include="Tags\HtmlTagExtensions.cs" />
+    <Compile Include="Tags\OutlineTag.cs" />
     <Compile Include="TwitterBootstrapPageExtensions.cs" />
   </ItemGroup>
   <ItemGroup>

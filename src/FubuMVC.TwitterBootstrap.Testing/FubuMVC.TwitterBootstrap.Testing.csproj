@@ -75,6 +75,7 @@
   <ItemGroup>
     <Compile Include="MenuItemTagTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tags\DetailTableBuilderTester.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FubuMVC.TwitterBootstrap\FubuMVC.TwitterBootstrap.csproj">
