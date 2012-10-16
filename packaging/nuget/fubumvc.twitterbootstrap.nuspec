@@ -12,7 +12,9 @@
     <description>Quickly integrate Twitter Bootstrap into your FubuMVC application</description>
     <tags>fubumvc twitter bootstrap</tags>
     <dependencies>
-      <dependency id="FubuMVC.References" version="0.9.8.993" />
+      <dependency id="FubuMVC.Core"  />
+      <dependency id="FubuMVC.Core.UI"  />
+      <dependency id="FubuMVC.Core.Assets"  />
     </dependencies>
   </metadata>
   <files>

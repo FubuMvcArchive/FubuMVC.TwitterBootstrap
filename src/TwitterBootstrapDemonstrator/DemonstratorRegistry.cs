@@ -7,7 +7,6 @@ namespace TwitterBootstrapDemonstrator
     {
         public DemonstratorRegistry()
         {
-            Views.TryToAttachWithDefaultConventions();
             Routes.HomeIs<HomeEndpoint>(x => x.Index());
 
             // Registering the navigation registry
