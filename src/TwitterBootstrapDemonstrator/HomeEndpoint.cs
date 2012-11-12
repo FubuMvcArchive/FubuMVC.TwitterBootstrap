@@ -1,5 +1,5 @@
 using System;
-using FubuMVC.Core.UI.Navigation;
+using FubuMVC.Navigation;
 using HtmlTags;
 using System.Collections.Generic;
 

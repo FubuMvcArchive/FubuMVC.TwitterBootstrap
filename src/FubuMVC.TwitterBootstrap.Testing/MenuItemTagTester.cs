@@ -1,5 +1,5 @@
 using System.Diagnostics;
-using FubuMVC.Core.UI.Navigation;
+using FubuMVC.Navigation;
 using FubuMVC.TwitterBootstrap.Menus;
 using FubuTestingSupport;
 using HtmlTags;

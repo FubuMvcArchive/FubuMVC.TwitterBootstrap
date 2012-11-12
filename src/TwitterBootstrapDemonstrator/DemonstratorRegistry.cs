@@ -10,7 +10,7 @@ namespace TwitterBootstrapDemonstrator
             Routes.HomeIs<HomeEndpoint>(x => x.Index());
 
             // Registering the navigation registry
-            Navigation<TwitterBootstrapDemonstrationNavigation>();
+            Policies.Add<TwitterBootstrapDemonstrationNavigation>();
         }
     }
     // ENDSAMPLE

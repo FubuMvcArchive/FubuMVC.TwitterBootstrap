@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using FubuCore;
-using FubuMVC.Core.UI.Navigation;
+using FubuMVC.Navigation;
 using HtmlTags;
 
 namespace FubuMVC.TwitterBootstrap.Menus

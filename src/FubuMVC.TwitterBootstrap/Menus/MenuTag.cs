@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using FubuMVC.Core.UI.Navigation;
+using FubuMVC.Navigation;
 using HtmlTags;
 
 namespace FubuMVC.TwitterBootstrap.Menus

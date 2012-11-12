@@ -1,4 +1,4 @@
-using FubuMVC.Core.UI.Navigation;
+using FubuMVC.Navigation;
 using TwitterBootstrapDemonstrator.CollapsiblePartial;
 using TwitterBootstrapDemonstrator.Modals;
 using TwitterBootstrapDemonstrator.Navigation;
