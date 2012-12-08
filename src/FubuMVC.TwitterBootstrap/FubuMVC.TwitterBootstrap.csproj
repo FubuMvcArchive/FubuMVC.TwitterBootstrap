@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="content\scripts\twitter\activate-collapsible.js" />
+    <Content Include="content\scripts\twitter\bootstrap-affix.js" />
     <Content Include="content\scripts\twitter\bootstrap-collapse.js" />
     <Content Include="content\scripts\twitter\bootstrap-modal.js" />
     <Content Include="content\scripts\twitter\bootstrap-tabs.js" />
