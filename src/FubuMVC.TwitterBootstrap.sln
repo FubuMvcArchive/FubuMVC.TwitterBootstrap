@@ -1,15 +1,15 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AD0982D-4DC7-42CA-BFA2-AEA99DCF62F7}"
+	ProjectSection(SolutionItems) = preProject
+		..\rakefile.rb = ..\rakefile.rb
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.TwitterBootstrap", "FubuMVC.TwitterBootstrap\FubuMVC.TwitterBootstrap.csproj", "{F3A79B8C-C764-4B53-A75E-D18D29D14490}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.TwitterBootstrap.Testing", "FubuMVC.TwitterBootstrap.Testing\FubuMVC.TwitterBootstrap.Testing.csproj", "{EA81872F-4C9B-44CE-AFBE-E444D1AA6FD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterBootstrapDemonstrator", "TwitterBootstrapDemonstrator\TwitterBootstrapDemonstrator.csproj", "{0616590B-1AD1-48B1-AB43-076366AA3BF2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AD0982D-4DC7-42CA-BFA2-AEA99DCF62F7}"
-	ProjectSection(SolutionItems) = preProject
-		..\rakefile.rb = ..\rakefile.rb
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

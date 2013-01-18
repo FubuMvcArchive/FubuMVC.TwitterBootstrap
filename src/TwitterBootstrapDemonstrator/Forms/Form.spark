@@ -1,0 +1,15 @@
+﻿<viewdata model="TwitterBootstrapDemonstrator.Forms.FormModel"/>
+<use namespace="TwitterBootstrapDemonstrator.Forms" />
+
+<content:title>Form Conventions Sample</content:title>
+<content:main>
+
+  <p>The idea behind this feature is to extend the Default HTML Conventions to use the built-in form classes in Bootstrap.</p>
+
+  <Form model="FormModel">
+    <Edit property="Name" />
+    <Edit property="Email" />
+  </Form>
+
+
+  </content:main>

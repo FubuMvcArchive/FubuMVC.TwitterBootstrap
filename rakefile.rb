@@ -82,12 +82,13 @@ end
 desc "Compiles the app"
 task :compile => [:restore_if_missing, :clean, :version] do
   bottles("assembly-pak src/FubuMVC.TwitterBootstrap -p FubuMVC.TwitterBootstrap.csproj")
-  
-  MSBuildRunner.compile :compilemode => COMPILE_TARGET, :solutionfile => 'src/FubuMVC.TwitterBootstrap.sln', :clrversion => CLR_TOOLS_VERSION
-
+  compileSolution COMPILE_TARGET
   target = COMPILE_TARGET.downcase
-
   FileUtils.rm_rf 'src/TwitterBootstrapDemonstrator/fubu-content'
+end
+
+def compileSolution(target)
+  MSBuildRunner.compile :compilemode => target, :solutionfile => 'src/FubuMVC.TwitterBootstrap.sln', :clrversion => CLR_TOOLS_VERSION
 end
 
 def copyOutputFiles(fromDir, filePattern, outDir)

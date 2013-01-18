@@ -8,7 +8,7 @@
   <element name="Image">this.ImageFor('@src')</element>
   <element name="Partial">this.Partial&lt;@model&gt;()</element>
   <element name="Form">
-    <start>this.FormFor&lt;@model&gt;().WithValidationSummary&lt;@model&gt;()</start>
+    <start>this.FormFor&lt;@model&gt;()</start>
     <end>this.EndForm()</end>
   </element>
 
@@ -16,6 +16,7 @@
   <element name="Label">this.LabelFor(m =&gt; m.@property)</element>
   <element name="Display">this.DisplayFor(m =&gt; m.@property)</element>
   <element name="Input">this.InputFor(m =&gt; m.@property)</element>
+  <element name="Edit">this.Edit(m =&gt; m.@property)</element>
   <element name="EditableDisplay">this.EditableDisplayFor(m =&gt; m.@property)</element>
   <element name="InputWatermark">this.InputFor(m =&gt; m.@property).Attr("placeholder", "@placeholder")</element>
   <element name="Hidden">this.HiddenFor(m =&gt; m.@property)</element>
