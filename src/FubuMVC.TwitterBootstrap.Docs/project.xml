@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ProjectRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TagLine>Quickly integrate Twitter Bootstrap into your FubuMVC application</TagLine>
+  <Name>FubuMVC.TwitterBootstrap</Name>
+  <GitHubPage>http://github.com/DarthFubuMVC/FubuMVC.TwitterBootstrap</GitHubPage>
+  <UserGroupUrl>https://groups.google.com/forum/?fromgroups#!forum/fubumvc-devel</UserGroupUrl>
+  <BuildServerUrl>http://build.fubu-project.org/project.html?projectId=project24&amp;tab=projectOverview</BuildServerUrl>
+  <BottleName>FubuMVC.TwitterBootstrap.Docs</BottleName>
+  <TeamCityBuildType>bt40</TeamCityBuildType>
+  <Nugets>
+    <PublishedNuget>
+      <Name>FubuMVC.TwitterBootstrap</Name>
+      <Description>Quickly integrate Twitter Bootstrap into your FubuMVC application</Description>
+    </PublishedNuget>
+  </Nugets>
+  <Url>fubumvc.twitterbootstrap</Url>
+</ProjectRoot>

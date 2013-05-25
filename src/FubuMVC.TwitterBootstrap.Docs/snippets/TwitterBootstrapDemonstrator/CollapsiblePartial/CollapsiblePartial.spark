@@ -1,0 +1,48 @@
+﻿<viewdata model="TwitterBootstrapDemonstrator.CollapsiblePartial.CollapsiblePartialViewModel"/>
+<use namespace="TwitterBootstrapDemonstrator.CollapsiblePartial" />
+<use namespace="TwitterBootstrapDemonstrator" />
+
+<content:title>Collapsible Partial Sample</content:title>
+<content:main>
+
+  <p>The idea of this feature is to be able to easily invoke a FubuMVC Partial in a page wrapped in Twitter Bootstrap's <a href="http://twitter.github.com/bootstrap/javascript.html#collapse">Collapsible</a> plugin.  Let's say that I have a partial endpoint that generates just a little bit of html like this one:</p>
+
+  !{this.CodeSnippet("PartialInCollapsible")}
+  
+  <p>Now that I have a working partial endpoint, I can render it inside a collapsible html element in a view by using this statement in a Spark view:</p>
+
+  !{this.CodeSnippet("CollapsiblePartialInSpark")}
+
+  <p>The line of code above renders the following div to the page:</p>
+
+  <h5>Collapsible Partial Rendered</h5>
+  <!-- SAMPLE: CollapsiblePartialInSpark-->
+  !{this.CollapsiblePartialFor<PartialRequest>().Title("First").Id("first")}
+  <!-- ENDSAMPLE -->
+    <br></br>
+
+    <p>The <code>CollapsiblePartialFor()</code> method comes in a couple different flavors corresponding to the various ways that you can render a Partial in FubuMVC itself.  The <code>Id()</code> method is optional, but you'll most likely want to use it for automated testing scenarios.  If it's not specified, the html generated will use a Guid for the id.
+  </p>
+    
+    <h4>Using the CollapsibleTag</h4>
+    <p>Underneath the covers, the <code>CollapsiblePartialFor()</code> method uses the <code>CollapsibleTag</code> class to generate the html.  It may be useful for you to use this tag by itself to generate html.  Here's a sample usage:</p>
+
+    !{this.CodeSnippet("UsingCollapsibleTag")}
+    
+    <p>The code above when rendered in a view will give you this:</p>
+
+    !{Model.Tag}
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+
+
+  </content:main>
