@@ -12,7 +12,6 @@ namespace FubuMVC.TwitterBootstrap
             {
                 x.FieldChrome<BootstrapFieldChrome>();
                 x.Labels.Add(new BootstrapLabelModifier());
-                x.Forms.Add(new HorizontalFormModifier());
             });
         }
     }
