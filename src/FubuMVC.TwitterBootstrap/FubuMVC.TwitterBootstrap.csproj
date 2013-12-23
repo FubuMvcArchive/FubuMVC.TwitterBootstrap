@@ -92,16 +92,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="content\scripts\twitter\activate-collapsible.js" />
+    <Content Include="content\scripts\twitter\bootstrap.min.js" />
     <Content Include="content\scripts\twitter\bootstrap-affix.js" />
     <Content Include="content\scripts\twitter\bootstrap-collapse.js" />
     <Content Include="content\scripts\twitter\bootstrap-modal.js" />
     <Content Include="content\scripts\twitter\bootstrap-tabs.js" />
     <Content Include="content\scripts\twitter\bootstrap-transition.js" />
-    <Content Include="content\scripts\twitter\bootstrap.min.js" />
-    <Content Include="content\styles\img\glyphicons-halflings-white.png" />
     <Content Include="content\styles\img\glyphicons-halflings.png" />
-    <Content Include="content\styles\twitter\bootstrap-responsive.min.css" />
+    <Content Include="content\styles\img\glyphicons-halflings-white.png" />
     <Content Include="content\styles\twitter\bootstrap.min.css" />
+    <Content Include="content\styles\twitter\bootstrap-responsive.min.css" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ripple.dependencies.config">
@@ -123,9 +123,5 @@
     <EmbeddedResource Include="pak-WebContent.zip" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="pak-Data.zip" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="pak-Config.zip" />
   </ItemGroup>
 </Project>
